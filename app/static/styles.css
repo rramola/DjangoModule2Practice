@@ -1,0 +1,49 @@
+body {
+    background-color: lightblue;
+}
+
+.home_header {
+    display: flex;
+    justify-content: center;
+}
+
+.contact_book {
+    line-height: 2rem;
+}
+
+.contact_header {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact_name_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.contact_number_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.contact_email_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}
+
+.contact_address_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+}

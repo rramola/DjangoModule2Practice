@@ -1,0 +1,23 @@
+{% extends "home.html" %}
+{% block content  %}
+   <a href="/">home</a>
+    <h1 class="contact_header">CONTACT</h1>
+    <div class="contact_container">
+        <div class="contact_name_container">
+            <p>NAME:</p>
+            <p class="contact_name">{{ name }}</p>
+        </div>
+        <div class="contact_number_container">
+            <p>NUMBER</p>
+            <p class="contact_number">{{ number }}</p>
+        </div>
+        <div class="contact_email_container">
+            <p>EMAIL:</p>
+            <p class="contact_email">{{ email }}</p>
+        </div>
+        <div class="contact_address_container">
+            <p>ADDRESS:</p>
+            <p class="contact_address">{{ address }}</p>
+        </div>
+    <div>
+{% endblock content  %}
